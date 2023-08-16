@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+header{
+    background-color: #FFD900;
+    width: 100%;
+    height: 118px;
+}
+
+#ccxp{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+#Inf{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#txt{
+
+    background-color: #514988;
+    width: 550px;
+    height: 550px;
+
+
+}
+
+#titulo{
+
+color: #F3C61F;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 50px;
+padding-top: 25px;
+padding-left: 25px;
+
+
+}
+
+#subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 25px;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 100px;
+}
+
+#texto{
+    color: #FFFFFF;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#inter{
+   padding-left: 10px;
+}
+
+.timer{
+
+    display: inline-grid;
+    grid-auto-flow:column;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    text-align:justify;
+    color: #514988;
+    align-items: center;
+    column-gap: 55px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    
+}
+
+#inter2{
+    color: #E33881;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-left: 60px;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#video{
+    padding-left: 20px;
+}
+
+#inter3{
+    color:#F3C61F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px; 
+    
+}
+
+#ss-img{
+    padding-bottom: 50px;
+}
+
+#qui{ 
+padding-bottom: 30px; 
+width: 150px;
+padding-left: 70px;
+
+}
+
+#sex{
+    padding-bottom: 30px; 
+    width: 150px;
+    padding-left: 10px;
+    
+}
+
+#esg{
+    padding-bottom: 30px; 
+    width: 150px;
+    padding-left: 10px;
+    
+}
+
+#domi{
+    padding-bottom: 30px; 
+    width: 150px;
+    padding-left: 10px;
+  
+}
+
+
+#Botao{
+    border-radius: 15px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #514988;
+    border: 0px;
+    position: absolute;
+    width: 450px;
+    height: 108px;
+    left: 790px;
+    top: 750px;
+    padding-left: 60px;
+    
+}
+
+button:hover{
+    background: #514988d5;
+    cursor: pointer;
+    color: #F3C61F;
+    box-shadow: 8px 8px 8px 8px  #453f7269 ;
+    transition-duration: 0.3s;
+    
+    
+}
+
+.card-higlight{
+    box-shadow: 20px 20px 5px  rgba(107, 107, 107, 0.589);
+
+}
+
+.cardselected{
+    border: 10px 5px solid green;
+}
+
+input{
+    background-color:#514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#eml{
+    padding-left: 20px;
+}
+
+form{
+    background-color:#F3C61F; 
+    
+}
